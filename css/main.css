@@ -120,7 +120,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .section-header .section-title {
-  font-size: 42px;
+  font-size: 34px;
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 700;
@@ -652,11 +652,31 @@ button:focus {
   6. Features Section Style
    ========================================================================== */
 #services {
-  background: url(../img/bg1.jpg) fixed no-repeat;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%) url(../img/aanbod.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
+}
+
+@media (max-width : 770px) {
+  #services {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/aanbod_hor.jpg) fixed no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+@media (min-width : 770px) {
+  #services {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/aanbod.jpg) fixed no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+  }
 }
 
 #services .section-title {
