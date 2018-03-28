@@ -413,7 +413,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url(../img/hero-area2.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -1297,4 +1297,10 @@ footer {
 
 .copyright p a:hover {
   color: #1a5550;
+}
+
+.aanbod_img {
+  width: 60%;
+  opacity: 0.8;
+  border-radius: 25px;
 }
