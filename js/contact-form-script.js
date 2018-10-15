@@ -17,9 +17,9 @@ function submitForm(){
     var email = $("#email").val();
     var msg_subject = $("#msg_subject").val();
     var message = $("#message").val();
+    sendMail(message, email, name);
 
-
-    $.ajax({
+    /*$.ajax({
         type: "POST",
         url: "php/form-process.php",
         data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
@@ -31,7 +31,7 @@ function submitForm(){
                 submitMSG(false,text);
             }
         }
-    });
+    });*/
 }
 
 function formSuccess(){
